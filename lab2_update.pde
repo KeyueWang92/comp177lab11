@@ -71,7 +71,7 @@ class Bar {
     popMatrix();
   }
   void drawhoverinfo() {
-   text(text, xor + (wid/2), yor - 24); 
+   text(inputtext, xor + (wid/2), yor - 24); 
   }
   void drawbar(){
     rect(xor, yor, wid, hgt);
