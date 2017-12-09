@@ -30,7 +30,7 @@ class Graph {
     float interval = 0;
     interval = ((height - yor) - max_y) / maxvalue;
     for(float curr_y = max_y; curr_y < (height - yor); curr_y = curr_y + interval * 10) {
-      text(parseInt(value, 10),xor - 40, curr_y);
+      text(parseInt(value),xor - 40, curr_y);
       line(xor, curr_y, xor + w, curr_y);
       value = value  - 10;
     }
