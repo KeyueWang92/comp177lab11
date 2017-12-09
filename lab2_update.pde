@@ -47,7 +47,7 @@ class Bar {
   float yor;
   color c;
   Bar(String s, int v, int nth, int amount) {
-    text = "";
+    inputtext = "";
     id = s;
     value = v;
     /* wid = (1-(1-ratio)*2) * width / amount /2;
@@ -127,12 +127,12 @@ void mouseMoved() {
   if(mouseX >= bs[i].xor && mouseX <= (bs[i].xor + bs[i].wid) && mouseY >= bs[i].yor && mouseY <= (bs[i].yor + bs[i].hgt)) {
     bs[i].c = light_color;
     textAlign(CENTER);
-    bs[i].text = bs[i].id + '\n' + bs[i].value;
+    bs[i].inputtext = bs[i].id + '\n' + bs[i].value;
   }
   else {
     textAlign(LEFT);
     bs[i].c = nor_color; 
-    bs[i].text = "";
+    bs[i].inputtext = "";
   }
  }
 }
