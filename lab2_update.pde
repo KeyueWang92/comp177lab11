@@ -19,7 +19,7 @@ class Graph {
     yor = y;
     w = wid;
     h = hgt;
-    max_y = Float.MAX_VALUE;
+    max_y = 100000.0;
   }
   void drawGraph() {
     line(xor, height - yor, xor+w, height - yor);
