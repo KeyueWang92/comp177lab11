@@ -38,7 +38,7 @@ class Graph {
 }
 
 class Bar {
-  String text;
+  String inputtext;
   String id;
   int value;
   float wid;
