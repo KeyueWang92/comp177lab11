@@ -127,7 +127,7 @@ void mouseMoved() {
   if(mouseX >= bs[i].xor && mouseX <= (bs[i].xor + bs[i].wid) && mouseY >= bs[i].yor && mouseY <= (bs[i].yor + bs[i].hgt)) {
     bs[i].c = light_color;
     textAlign(CENTER);
-    bs[i].inputtext = bs[i].id + '\n' + bs[i].value;
+    bs[i].inputtext = bs[i].id + "\n" + bs[i].value;
   }
   else {
     textAlign(LEFT);
