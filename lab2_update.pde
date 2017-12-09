@@ -78,7 +78,7 @@ class Bar {
   }
 }
 void setup() {
-   surface.setResizable(true);
+   //surface.setResizable(true);
    size(800,600);
    lines = loadStrings("./data.csv");
    headers = split(lines[0], ",");
